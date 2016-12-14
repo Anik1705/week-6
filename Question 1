@@ -1,0 +1,35 @@
+Assume the following list:   a = [ 66.25, 333, 333, 1, 1234.5 ]
+
+ 1.If you perform the following operations on the list:
+
+     a.insert(2, -1)
+     a.append(333)
+
+What will the list look like?
+
+# the insert function insert -1 after the 2nd value in the list 
+ [66.25, 333, -1, 333, 1, 1234.5]
+
+# the append  function add a value
+  [66.25, 333, -1, 333, 1, 1234.5, 333]
+-------------------------------------------------------------------------  
+  Now you perform: 
+     a.index(333)
+     
+  # The index function return the position of the value  asked appearing first , here it is 1
+ -------------------------------------------------------------------------
+  Now you perform: 
+     a.remove(333)
+     
+  # Remove the first value of the list asked for 
+    [66.25, -1, 333, 1, 1234.5, 333]
+ -------------------------------------------------------------------------   
+  Now you perform: 
+     a.reverse()
+
+What will the list look like?
+
+# This function reverse the elements of the list 
+  [333, 1234.5, 1, 333, -1, 66.25]
+  
+  note : function are performed one after another in the same page this is why the list is modified from the original
