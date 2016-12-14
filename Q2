@@ -1,0 +1,13 @@
+empty_list = []
+empty_list.append(0)
+empty_list.append(1)
+empty_list.append(4)
+empty_list.append(9)
+empty_list.append(16)
+empty_list.append(25)
+empty_list.append(36)
+empty_list.append(49)
+empty_list.append(64)
+empty_list.append(81)
+empty_list.append(100)
+print ("After appending square of numbers from 0 to 10", empty_list)
