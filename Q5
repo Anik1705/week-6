@@ -1,0 +1,21 @@
+sentence1 = "I  watch cartoons on tv "
+sentence2 = " I shoud watch news"      
+long_sentence = sentence1 + sentence2
+
+word_separated = long_sentence.split() #  sentence into a list of wors
+print (word_separated)
+
+
+alphabetical_order = sorted(word_separated) # words in alphabetical order
+print (alphabetical_order)
+
+number_word = len (alphabetical_order) # numbers of words in the list
+print(number_word)
+
+
+word_count = []              # dictonary storing words together with count
+for w in alphabetical_order:
+    word_count.append(alphabetical_order.count(w))
+    
+
+print (dict(zip(alphabetical_order, word_count))) # print item from dictionary
